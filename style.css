@@ -1,0 +1,238 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', arial;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: #F6F6FA;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.contact{
+    overflow: hidden;
+    width: 100%;
+    height: calc(100vh - 118px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 118px;
+}
+.contact__content {
+    display: flex;
+    background: #F6F6FA;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+    max-width: 928px;
+    flex-direction: column;
+    padding: 135px 0;
+
+}
+.contact__content-title {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.contact__content-sub {
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 40px;
+    max-width: 480px;
+}
+.contact__content-btn {
+    max-width: 224px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    background: #000;
+    color: #fff;
+    font-size: 16px ;
+    line-height: 24px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+}
+.contact__content-soc {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+.contact__content li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.contact__content li a {
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+}
+.contact__content li a svg {
+    width: 100%;
+}
+.contact__content li a:hover svg {
+    fill: #5B5AFF;
+}
+.contact__content li a:hover svg path {
+    fill: #5B5AFF;
+}
+
+
+.footer {
+    display: inline-block;
+    width: 100%;
+    background: #000;
+    padding: 35px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.footer__wrap {
+    max-width: 1120px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.footer__content-left {
+    display: flex;
+    align-items: center;
+}
+.footer__content-logo {
+    display: flex;
+    margin-right: 7px;
+}
+.footer__content-logo .btn{
+    margin-right: 8px;
+    width: 48px;
+    height: 48px;
+}
+.footer__content-logo .btn img{
+    width: 100%;
+}
+.footer__content-copyright {
+    color: #fff;
+}
+.footer__content-copyright p{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    line-height: 16px;
+    opacity: .7;
+}
+
+.footer__content-soc {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.footer__content-soc li{
+    width: 38px;
+    height: 38px;
+    display: flex;
+    margin-right: 22px;
+}
+.footer__content-soc li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.footer__content-soc li a img{
+    width: 100%;
+
+}
+@media (max-width: 1024px) {
+    .contact__content {
+        max-width: 600px;
+        padding: 40px 0;
+    }
+}
+@media (max-width: 768px) {
+    .contact{
+        height: calc(100vh - 171px);
+        padding-bottom: 171px;
+    }
+    .contact__content {
+        max-width: 600px;
+        margin: 15px;
+        padding: 15px;
+        /*height: 100%;*/
+        display: flex;
+    }
+    .contact__content-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .contact__content-sub{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .footer {
+        padding: 30px 0;
+    }
+
+    .footer__wrap {
+       flex-direction: column-reverse;
+
+    }
+
+    .footer__content-copyright p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .footer__content-soc {
+        margin-bottom: 25px;
+    }
+
+}
+
+
+@font-face {
+    font-family: 'Arial';
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Arial';
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Arial';
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Arial';
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Arial';
+    font-weight: 900;
+    font-style: normal;
+}
