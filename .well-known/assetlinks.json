@@ -2,8 +2,8 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "org.thingsboard.demo.app",
+    "package_name": "org.thingsboard.app",
     "sha256_cert_fingerprints":
-    ["09:8D:BA:A8:53:06:B3:1B:DA:A6:9A:0F:BB:C2:9F:78:D9:13:07:13:1E:64:9B:A0:B5:D1:6C:E3:6F:18:1F:BA"]
+    ["DF:28:32:66:8B:A7:D3:EC:7D:73:CF:CC:9A:DD:C5:3B:0C:C3:42:1D:CF:98:D9:8F:DA:AB:70:F0:D8:5D:00:52"]
   }
 }]
