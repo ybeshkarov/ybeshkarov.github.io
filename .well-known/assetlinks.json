@@ -2,7 +2,7 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "org.thingsboard.app",
+    "package_name": "org.thingsboard.demo.app",
     "sha256_cert_fingerprints":
     ["DF:28:32:66:8B:A7:D3:EC:7D:73:CF:CC:9A:DD:C5:3B:0C:C3:42:1D:CF:98:D9:8F:DA:AB:70:F0:D8:5D:00:52"]
   }
